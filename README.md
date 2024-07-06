@@ -1,13 +1,14 @@
 # Robot Control Panel
 
-This project is a simple robot control panel built using PHP and HTML, which allows users to send directional commands (up, down, left, right) and view the last stored direction. The control panel communicates with a MySQL database to store and retrieve directions, and it only stores the last two directions sent.
+This project is a simple robot control panel built using PHP and HTML, which allows users to send directional commands (up, down, left, right) and view the last stored direction. The control panel communicates with a  database to store and retrieve directions, and it only stores the last two directions sent.
 
 ## Usage
-
-1. Start your local server (Xampp)
-2. Open `Cpanel.html` in your browser to access the control panel.
-3. Use the buttons to send directional commands.
-4. Open `last_direction.php` in your browser to view the last stored direction.
+1. upload database provided inside the file into xampp
+2. set conn.php  to access database 
+3. Start your local server (Xampp)
+4. Open `Cpanel.html` in your browser to access the control panel. e.g(localhost/Cpanel.html)
+5. Use the buttons to send directional commands.
+6. Open `last_direction.php` in your browser to view the last stored direction. e.g(localhost/last_direction.php)
 
 ## Files
 
