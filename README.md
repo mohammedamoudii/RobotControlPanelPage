@@ -4,11 +4,11 @@ This project is a simple robot control panel built using PHP and HTML, which all
 
 ## Usage
 1. upload database provided inside the file into xampp
-2. set conn.php  to access database 
+2. set conn.php  to connect with the database 
 3. Start your local server (Xampp)
-4. Open `Cpanel.html` in your browser to access the control panel. e.g(localhost/Cpanel.html)
+4. Open `Cpanel.html` in your browser to access the control panel. e.g(localhost/folder_name/Cpanel.html)
 5. Use the buttons to send directional commands.
-6. Open `last_direction.php` in your browser to view the last stored direction. e.g(localhost/last_direction.php)
+6. Open `last_direction.php` in your browser to view the last stored direction. e.g(localhost/folder_name/last_direction.php)
 
 ## Files
 
