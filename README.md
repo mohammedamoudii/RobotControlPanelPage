@@ -24,8 +24,8 @@ This project is a simple robot control panel built using PHP and HTML, which all
 
 ### Control Panel
 
-![Control Panel](Control_Panel_for_robot_Week_1/directionsImage.png)
+![Control Panel](Control_Panel_for_robot/directionsImage.png)
 
 ### Last Stored Direction
 
-![Last Stored Direction](Control_Panel_for_robot_Week_1/LastDirectionsImage.png)
+![Last Stored Direction](Control_Panel_for_robot/LastDirectionsImage.png)
