@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Control Panel</title>
+    <style>
+        .control-panel {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .control-panel button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="control-panel">
+        <button onclick="sendDirection('up')">Up</button>
+        <div>
+            <button onclick="sendDirection('left')">Left</button>
+            <button onclick="sendDirection('right')">Right</button>
+        </div>
+        <button onclick="sendDirection('down')">Down</button>
+    </div>
+
+    <script>
+        function sendDirection(direction) {
+            const xhttp = new XMLHttpRequest();
+            xhttp.open("POST", "save_direction.php", true);
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send("direction=" + direction);
+        }
+    </script>
+</body>
+</html>
