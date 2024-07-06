@@ -4,7 +4,7 @@ This project is a simple robot control panel built using PHP and HTML, which all
 
 ## Usage
 
-1. Start your local server (e.g., using XAMPP, MAMP, etc.).
+1. Start your local server (Xampp)
 2. Open `Cpanel.html` in your browser to access the control panel.
 3. Use the buttons to send directional commands.
 4. Open `last_direction.php` in your browser to view the last stored direction.
@@ -13,7 +13,7 @@ This project is a simple robot control panel built using PHP and HTML, which all
 
 - **conn.php**: Contains the database connection details.
   
-- **Cpanel.html**: Provides the user interface for sending directional commands.
+- **Cpanel.html**:  user interface for sending directional commands.
   
 - **last_direction.php**: Displays the last stored direction.
   
@@ -23,8 +23,8 @@ This project is a simple robot control panel built using PHP and HTML, which all
 
 ### Control Panel
 
-![Control Panel](directionsImage.png)
+![Control Panel](Control_Panel_for_robot_Week_1/directionsImage.png)
 
 ### Last Stored Direction
 
-![Last Stored Direction](LastDirectionsImage.png)
+![Last Stored Direction](Control_Panel_for_robot_Week_1/LastDirectionsImage.png)
